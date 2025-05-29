@@ -5,7 +5,7 @@ let soma = 0;
 
 do {
 
-    numeros = leia.questionInt("Digite um número: ");
+    numeros = leia.questionInt("\nDigite um número: ");
 
     if (numeros > 0) {
         soma += numeros;
@@ -13,4 +13,4 @@ do {
 
 } while (numeros !== 0);
 
-    console.log(`A soma dos numeros positivos é: ${soma}`);
+    console.log(`\nA soma dos números positivos é: ${soma}`);
